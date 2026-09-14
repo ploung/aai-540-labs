@@ -1,0 +1,15 @@
+# Python 3.12.14-compatible dependencies with AWS/SageMaker Labs
+awscli
+boto3
+botocore
+sagemaker==2.235.0
+smdebug
+sagemaker-experiments
+pyathena
+awswrangler
+matplotlib
+seaborn
+protobuf
+pandas
+numpy<2
+scikit-learn
