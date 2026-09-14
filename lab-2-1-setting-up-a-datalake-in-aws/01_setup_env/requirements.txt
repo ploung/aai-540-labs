@@ -1,15 +1,18 @@
 # Python 3.12.14-compatible dependencies with AWS/SageMaker Labs
-awscli
+# Keep SageMaker v2 because the lab uses sagemaker.session.Session
 boto3
 botocore
 sagemaker==2.235.0
+sagemaker-experiments==0.1.45
+numpy==1.26.4
+protobuf==4.25.9
+
+# Used by later Data Lake and visualization notebooks.
+awscli
 smdebug
-sagemaker-experiments
 pyathena
 awswrangler
 matplotlib
 seaborn
-protobuf
 pandas
-numpy<2
 scikit-learn

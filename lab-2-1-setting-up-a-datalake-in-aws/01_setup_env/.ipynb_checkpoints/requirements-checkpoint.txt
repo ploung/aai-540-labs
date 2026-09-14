@@ -4,12 +4,12 @@ boto3
 botocore
 sagemaker==2.235.0
 smdebug
-sagemaker-experiments
+sagemaker-experiments==0.1.45
 pyathena
 awswrangler
 matplotlib
 seaborn
-protobuf
+protobuf==4.25.9
 pandas
-numpy<2
+numpy==1.26.4
 scikit-learn
